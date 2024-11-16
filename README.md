@@ -45,6 +45,7 @@ $ conda activate umi
 ```
 
 ## Running UMI SLAM pipeline
+*BUG*: 这里的命令有点奇怪，前后对目录的要求很不一致，需要检查run_slam_pipeline.py文件，看下到底是为什么没有在project目录下存放example_demo_session文件夹
 Download example data
 ```console
 (umi)$ wget --recursive --no-parent --no-host-directories --cut-dirs=2 --relative --reject="index.html*" https://real.stanford.edu/umi/data/example_demo_session/
